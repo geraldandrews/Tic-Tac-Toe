@@ -115,5 +115,5 @@ function winnerSelect() {
 }
 
 replayBtn.onclick = () => {
-    window.location.reload(); //reload the current page on replay button click
+    window.location.reload(); 
 }
