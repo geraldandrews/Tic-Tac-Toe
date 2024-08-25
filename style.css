@@ -7,11 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-::selection {
-  color: #fff;
-  background: #333;
-}
-
 body {
   background:#333;
 }
