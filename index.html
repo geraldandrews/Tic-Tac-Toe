@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <!-- Select Box -->
+    <div class="intro">
+        <h1>Tic Tac Toe</h1>
+        <div class="player-select">
+            <p>Choose your letter.</p>
+            <div class="player-options">
+                <button class="player-X">Player X</button>
+                <button class="player-O">Player O</button>
+            </div>
+            <div class="developer">Created By <a href="https://www.geraldandrewsmedia.netlify.app" target="_blank">Gerald Andrews Media</a></div>
+        </div>
+    </div>
+
+    <!-- Play Area Section -->
+    <div class="play-section">
+        <div class="notifier-box">
+            <div class="players-turn">
+                <span class="X-turn">Player X's Turn</span>
+                <span class="O-turn">Player O's Turn</span>
+                <div class="slider"></div>
+            </div>
+        </div>
+        <div class="game-squares">
+            <section>
+               <span class="square-1"></span>
+               <span class="square-2"></span>
+               <span class="square-3"></span>
+            </section>
+            <section>
+               <span class="square-4"></span>
+               <span class="square-5"></span>
+               <span class="square-6"></span>
+            </section>
+            <section>
+               <span class="square-7"></span>
+               <span class="square-8"></span>
+               <span class="square-9"></span>
+            </section>
+        </div>
+    </div>
+
+    <!-- Result Box -->
+    <div class="game-result">
+        <div class="result-text"></div>
+        <div class="replay-btn">
+            <button>Replay</button>
+        </div>
+    </div>
+   
+
+<script src="script.js"></script>   
+</body>
+</html>
